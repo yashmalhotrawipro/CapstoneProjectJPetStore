@@ -1,0 +1,49 @@
+package stepdefinition;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import static org.testng.Assert.assertTrue;
+import PageObject.homePage;
+import PageObject.loginPage;
+import Utility.log4j;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class TC3_invalidLogin extends log4j{
+	WebDriver driver;
+	@Given("the user is on the login page for invalid login")
+	public void the_user_is_on_the_login_page_for_invalid_login() {
+		driver = Hooks.driver;
+		    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		    driver.get("https://petstore.octoperf.com/");
+		    writeLog("Starting invalid Login Test Case");
+	}
+	@When("the user enters invalid username {string} and password {string}")
+	public void the_user_enters_invalid_username_and_password(String uname, String pass) {
+		homePage home = new homePage(driver);
+		home.clickEnterStore();
+		loginPage login = new loginPage(driver);
+		login.clickLogin();
+		driver.findElement(By.name("username")).sendKeys(uname);
+		WebElement password = driver.findElement(By.name("password"));
+		password.clear();
+		password.sendKeys(pass);
+		writeLog("Entered invalid username and password");
+	}
+	@And("clicks on the login button for invalid login")
+	public void clicks_on_the_login_button() {
+		driver.findElement(By.name("signon")).click();
+		writeLog("Clicked login Button");
+	}
+	@Then("an error message should be displayed")
+	public void an_error_message_should_be_displayed() {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		assertTrue(driver.getPageSource().contains("Invalid username or password"));
+		writeLog("User is not logged in and error message is displayed");
+	}
+}
