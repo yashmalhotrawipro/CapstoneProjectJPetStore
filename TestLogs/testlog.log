@@ -1,76 +1,76 @@
-2025-03-17 23:47:39 INFO  log4j:8 - Starting add to cart test case
-2025-03-17 23:47:41 INFO  log4j:8 - Chose a product to add
-2025-03-17 23:47:41 INFO  log4j:8 - Clicked on Add to Cart button
-2025-03-17 23:47:41 INFO  log4j:8 - Product is displayed in the cart
-2025-03-17 23:47:47 INFO  log4j:8 - Starting testcase for Quantity Update
-2025-03-17 23:47:49 INFO  log4j:8 - Inserting Quantity
-2025-03-17 23:47:49 INFO  log4j:8 - Clicking on update cart
-2025-03-17 23:47:50 INFO  log4j:8 - Quantity is updated
-2025-03-17 23:47:56 INFO  log4j:8 - Starting Test Case to remove product from cart
-2025-03-17 23:47:58 INFO  log4j:8 - Removing the product from the cart
-2025-03-17 23:47:58 INFO  log4j:8 - Product is removed from the cart
-2025-03-17 23:48:04 INFO  log4j:8 - Starting category test case
-2025-03-17 23:48:05 INFO  log4j:8 - Clicked on a specific category
-2025-03-17 23:48:05 INFO  log4j:8 - The related products for that category displayed
-2025-03-17 23:48:11 INFO  log4j:8 - Starting Logout Test Case
-2025-03-17 23:48:14 INFO  log4j:8 - User is logged in
-2025-03-17 23:48:14 INFO  log4j:8 - Entered new password
-2025-03-17 23:48:14 INFO  log4j:8 - confirmed new password
-2025-03-17 23:48:21 INFO  log4j:8 - Starting test case for checkout process
-2025-03-17 23:48:23 INFO  log4j:8 - Adding Birds product to the cart
-2025-03-17 23:48:26 INFO  log4j:8 - Adding Dogs product to the cart
-2025-03-17 23:48:28 INFO  log4j:8 - Adding Reptiles product to the cart
-2025-03-17 23:48:30 INFO  log4j:8 - Adding Fish product to the cart
-2025-03-17 23:48:32 INFO  log4j:8 - Adding Cats product to the cart
-2025-03-17 23:48:33 INFO  log4j:8 - Checking out with products in the cart
-2025-03-17 23:48:34 INFO  log4j:8 - Selecting payment method and filling billing details
-2025-03-17 23:48:34 INFO  log4j:8 - Reviewing and Confirming order
-2025-03-17 23:48:35 INFO  log4j:8 - Confirmation message is displayed
-2025-03-17 23:48:41 INFO  log4j:8 - Starting homepage verification
-2025-03-17 23:48:42 INFO  log4j:8 - Clicked Enter the Store button
-2025-03-17 23:48:42 INFO  log4j:8 - Home Page appears
-2025-03-17 23:48:47 INFO  log4j:8 - Starting valid Login Test Case
-2025-03-17 23:48:50 INFO  log4j:8 - Entered valid username and password
-2025-03-17 23:48:51 INFO  log4j:8 - Clicked login Button
-2025-03-17 23:48:51 INFO  log4j:8 - User is logging in...
-2025-03-17 23:48:51 INFO  log4j:8 - User logged in successfully
-2025-03-17 23:48:58 INFO  log4j:8 - Starting invalid Login Test Case
-2025-03-17 23:49:28 INFO  log4j:8 - Entered invalid username and password
-2025-03-17 23:49:55 INFO  log4j:8 - Clicked login Button
-2025-03-17 23:49:55 INFO  log4j:8 - User is not logged in and error message is displayed
-2025-03-17 23:50:01 INFO  log4j:8 - Starting Logout Test Case
-2025-03-17 23:50:03 INFO  log4j:8 - User is logged in
-2025-03-17 23:50:04 INFO  log4j:8 - clicked log out button
-2025-03-17 23:50:14 INFO  log4j:8 - user is logged out and redirected to the log in page
-2025-03-17 23:50:14 INFO  log4j:8 - verifying logout message
-2025-03-17 23:50:24 INFO  log4j:8 - Attempted login with: yash / yash123
-2025-03-17 23:50:24 INFO  log4j:8 - Login successful for: yash
-2025-03-17 23:50:25 INFO  log4j:8 - Logged out successfully
-2025-03-17 23:50:26 INFO  log4j:8 - Attempted login with: username1 / password1
-2025-03-17 23:50:26 INFO  log4j:8 - Login successful for: username1
-2025-03-17 23:50:27 INFO  log4j:8 - Logged out successfully
-2025-03-17 23:50:29 INFO  log4j:8 - Attempted login with: username2 / password2
-2025-03-17 23:50:29 INFO  log4j:8 - Login successful for: username2
-2025-03-17 23:50:29 INFO  log4j:8 - Logged out successfully
-2025-03-17 23:50:35 INFO  log4j:8 - Starting Product details validation Test Case
-2025-03-17 23:50:37 INFO  log4j:8 - directed to the product details page
-2025-03-17 23:50:37 INFO  log4j:8 - product details verified
-2025-03-17 23:50:42 INFO  log4j:8 - Starting register existing user Test Case
-2025-03-17 23:50:45 INFO  log4j:8 - Clicked Register Now
-2025-03-17 23:50:45 INFO  log4j:8 - Entering credentials
-2025-03-17 23:50:47 INFO  log4j:8 - Entered all the credentials
-2025-03-17 23:50:47 INFO  log4j:8 - Selecting favourite category
-2025-03-17 23:50:48 INFO  log4j:8 - Clicked on Register button
-2025-03-17 23:50:48 INFO  log4j:8 - Encountered with error while registering existing user
-2025-03-17 23:50:53 INFO  log4j:8 - Starting register test case for missing values
-2025-03-17 23:50:55 INFO  log4j:8 - Clicked register
-2025-03-17 23:50:55 INFO  log4j:8 - Entered missing credentials
-2025-03-17 23:50:55 INFO  log4j:8 - Selecting favourite category
-2025-03-17 23:50:55 INFO  log4j:8 - Clicking Register Button
-2025-03-17 23:50:56 INFO  log4j:8 - Encountered with error because of missing credentials
-2025-03-17 23:51:01 INFO  log4j:8 - Starting Test Case to search products
-2025-03-17 23:51:02 INFO  log4j:8 - Entering product name
-2025-03-17 23:51:03 INFO  log4j:8 - Clicking search button
-2025-03-17 23:51:03 INFO  log4j:8 - Relevant products are displayed
-2025-03-17 23:51:09 INFO  log4j:8 - Starting test case to verify title
-2025-03-17 23:51:10 INFO  log4j:8 - Verifying Title
+2025-03-18 02:02:50 INFO  log4j:8 - Starting add to cart test case
+2025-03-18 02:02:52 INFO  log4j:8 - Chose a product to add
+2025-03-18 02:02:52 INFO  log4j:8 - Clicked on Add to Cart button
+2025-03-18 02:02:52 INFO  log4j:8 - Product is displayed in the cart
+2025-03-18 02:02:59 INFO  log4j:8 - Starting testcase for Quantity Update
+2025-03-18 02:03:02 INFO  log4j:8 - Inserting Quantity
+2025-03-18 02:03:02 INFO  log4j:8 - Clicking on update cart
+2025-03-18 02:03:02 INFO  log4j:8 - Quantity is updated
+2025-03-18 02:03:08 INFO  log4j:8 - Starting Test Case to remove product from cart
+2025-03-18 02:03:10 INFO  log4j:8 - Removing the product from the cart
+2025-03-18 02:03:11 INFO  log4j:8 - Product is removed from the cart
+2025-03-18 02:03:16 INFO  log4j:8 - Starting category test case
+2025-03-18 02:03:17 INFO  log4j:8 - Clicked on a specific category
+2025-03-18 02:03:17 INFO  log4j:8 - The related products for that category displayed
+2025-03-18 02:03:23 INFO  log4j:8 - Starting Logout Test Case
+2025-03-18 02:03:25 INFO  log4j:8 - User is logged in
+2025-03-18 02:03:26 INFO  log4j:8 - Entered new password
+2025-03-18 02:03:26 INFO  log4j:8 - confirmed new password
+2025-03-18 02:03:32 INFO  log4j:8 - Starting test case for checkout process
+2025-03-18 02:03:35 INFO  log4j:8 - Adding Birds product to the cart
+2025-03-18 02:03:36 INFO  log4j:8 - Adding Dogs product to the cart
+2025-03-18 02:03:38 INFO  log4j:8 - Adding Reptiles product to the cart
+2025-03-18 02:03:40 INFO  log4j:8 - Adding Fish product to the cart
+2025-03-18 02:03:42 INFO  log4j:8 - Adding Cats product to the cart
+2025-03-18 02:03:43 INFO  log4j:8 - Checking out with products in the cart
+2025-03-18 02:03:44 INFO  log4j:8 - Selecting payment method and filling billing details
+2025-03-18 02:03:44 INFO  log4j:8 - Reviewing and Confirming order
+2025-03-18 02:03:45 INFO  log4j:8 - Confirmation message is displayed
+2025-03-18 02:03:50 INFO  log4j:8 - Starting homepage verification
+2025-03-18 02:03:51 INFO  log4j:8 - Clicked Enter the Store button
+2025-03-18 02:03:51 INFO  log4j:8 - Home Page appears
+2025-03-18 02:03:56 INFO  log4j:8 - Starting valid Login Test Case
+2025-03-18 02:03:58 INFO  log4j:8 - Entered valid username and password
+2025-03-18 02:03:59 INFO  log4j:8 - Clicked login Button
+2025-03-18 02:03:59 INFO  log4j:8 - User is logging in...
+2025-03-18 02:03:59 INFO  log4j:8 - User logged in successfully
+2025-03-18 02:04:04 INFO  log4j:8 - Starting invalid Login Test Case
+2025-03-18 02:04:06 INFO  log4j:8 - Entered invalid username and password
+2025-03-18 02:04:07 INFO  log4j:8 - Clicked login Button
+2025-03-18 02:04:07 INFO  log4j:8 - User is not logged in and error message is displayed
+2025-03-18 02:04:12 INFO  log4j:8 - Starting Logout Test Case
+2025-03-18 02:04:14 INFO  log4j:8 - User is logged in
+2025-03-18 02:04:15 INFO  log4j:8 - clicked log out button
+2025-03-18 02:04:25 INFO  log4j:8 - user is logged out and redirected to the log in page
+2025-03-18 02:04:25 INFO  log4j:8 - verifying logout message
+2025-03-18 02:04:35 INFO  log4j:8 - Attempted login with: yash / yash123
+2025-03-18 02:04:35 INFO  log4j:8 - Login successful for: yash
+2025-03-18 02:04:36 INFO  log4j:8 - Logged out successfully
+2025-03-18 02:04:38 INFO  log4j:8 - Attempted login with: username1 / password1
+2025-03-18 02:04:38 INFO  log4j:8 - Login successful for: username1
+2025-03-18 02:04:39 INFO  log4j:8 - Logged out successfully
+2025-03-18 02:04:41 INFO  log4j:8 - Attempted login with: username2 / password2
+2025-03-18 02:04:41 INFO  log4j:8 - Login successful for: username2
+2025-03-18 02:04:41 INFO  log4j:8 - Logged out successfully
+2025-03-18 02:04:47 INFO  log4j:8 - Starting Product details validation Test Case
+2025-03-18 02:04:49 INFO  log4j:8 - directed to the product details page
+2025-03-18 02:04:49 INFO  log4j:8 - product details verified
+2025-03-18 02:04:55 INFO  log4j:8 - Starting register existing user Test Case
+2025-03-18 02:04:56 INFO  log4j:8 - Clicked Register Now
+2025-03-18 02:04:56 INFO  log4j:8 - Entering credentials
+2025-03-18 02:04:59 INFO  log4j:8 - Entered all the credentials
+2025-03-18 02:04:59 INFO  log4j:8 - Selecting favourite category
+2025-03-18 02:04:59 INFO  log4j:8 - Clicked on Register button
+2025-03-18 02:05:00 INFO  log4j:8 - Encountered with error while registering existing user
+2025-03-18 02:05:06 INFO  log4j:8 - Starting register test case for missing values
+2025-03-18 02:05:07 INFO  log4j:8 - Clicked register
+2025-03-18 02:05:08 INFO  log4j:8 - Entered missing credentials
+2025-03-18 02:05:08 INFO  log4j:8 - Selecting favourite category
+2025-03-18 02:05:08 INFO  log4j:8 - Clicking Register Button
+2025-03-18 02:05:09 INFO  log4j:8 - Encountered with error because of missing credentials
+2025-03-18 02:05:14 INFO  log4j:8 - Starting Test Case to search products
+2025-03-18 02:05:15 INFO  log4j:8 - Entering product name
+2025-03-18 02:05:15 INFO  log4j:8 - Clicking search button
+2025-03-18 02:05:16 INFO  log4j:8 - Relevant products are displayed
+2025-03-18 02:05:21 INFO  log4j:8 - Starting test case to verify title
+2025-03-18 02:05:22 INFO  log4j:8 - Verifying Title
